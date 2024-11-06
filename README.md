@@ -15,7 +15,7 @@ Visual Studio Code ou outra IDE de sua preferência.
 🔧 Instalação
 
 
-Clone o repositório para o seu ambiente local git clone https://github.com/Joaososter/MODELO_TELA.git
+Clone o repositório para o seu ambiente local git clone https://github.com/Joaososter/GERENCIAMENTO_FRUTAS_CLI.git
 
 Abra o projeto no VS Code.
 
