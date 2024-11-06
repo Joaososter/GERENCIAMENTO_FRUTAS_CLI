@@ -27,7 +27,7 @@ Visual Studio Code (IDE utilizada para o desenvolvimento).
 
 ▶️ Testando projeto:
 
-
+<img width="766" alt="Controle de frutas" src="https://github.com/user-attachments/assets/23e874d7-e6b2-41cf-a7be-2f78a67848f8">
 
 
 
