@@ -24,7 +24,7 @@ public class SetInterativo {
                 switch (opcao) {
                     case 1:
                         System.out.print("Digite o nome da fruta para adicionar: ");
-                        String novaFruta = scanner.nextLine();
+                        String novaFruta = scanner.nextLine().toLowerCase().trim(); // Normaliza a entrada
                         if (frutas.add(novaFruta)) {
                             System.out.println(novaFruta + " foi adicionada.");
                         } else {
@@ -38,7 +38,7 @@ public class SetInterativo {
 
                     case 3:
                         System.out.print("Digite o nome da fruta que deseja remover: ");
-                        String frutaRemover = scanner.nextLine();
+                        String frutaRemover = scanner.nextLine().toLowerCase().trim(); // Normaliza a entrada
                         if (frutas.remove(frutaRemover)) {
                             System.out.println(frutaRemover + " foi removida.");
                         } else {
@@ -48,7 +48,7 @@ public class SetInterativo {
 
                     case 4:
                         System.out.print("Digite o nome da fruta para verificar: ");
-                        String frutaVerificar = scanner.nextLine();
+                        String frutaVerificar = scanner.nextLine().toLowerCase().trim(); // Normaliza a entrada
                         if (frutas.contains(frutaVerificar)) {
                             System.out.println(frutaVerificar + " esta presente no conjunto.");
                         } else {
